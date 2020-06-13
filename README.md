@@ -11,20 +11,20 @@ Setting up local development environment
 ```
 
 2. Set origin
-```
+```python
 >>> cd AISAT
 >>> git set remote origin https://github.com/friyaz/AISAT.git
 ```
 
 3. Activate the virtual environment
-```
+```python
 >>> pip install virtualenv
 >>> virtualenv aisat_dev
 >>> source aisat_dev/bin/activate
 ```
 
 4. Install the dependencies
-```
+```python
 >>> pip install -r /path/to/requirements.txt
 ```
 
