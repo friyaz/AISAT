@@ -5,18 +5,31 @@ AISAT
 Setting up local development environment
 ------------
 
+1. Clone the repository
 ```python
 >>> git clone https://github.com/friyaz/AISAT.git
+```
+
+2. Set origin
+```
 >>> cd AISAT
-
 >>> git set remote origin https://github.com/friyaz/AISAT.git
+```
 
+Activate the virtual environment
+```
 >>> pip install virtualenv
 >>> virtualenv aisat_dev
 >>> source aisat_dev/bin/activate
+```
 
+Install the dependencies
+```
 >>> pip install -r /path/to/requirements.txt
-
+```
+Deactivate the virtual environment
+To decativate the virtual environment and use your original Python environment, simply type `deactivate`.
+```python
 >>> deactivate
 ```
 
