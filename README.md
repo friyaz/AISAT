@@ -2,6 +2,24 @@ AISAT
 ==============================
 
 
+Setting up local development environment
+------------
+
+```python
+>>> git clone https://github.com/friyaz/AISAT.git
+>>> cd AISAT
+
+>>> git set remote origin https://github.com/friyaz/AISAT.git
+
+>>> pip install virtualenv
+>>> virtualenv aisat_dev
+>>> source aisat_dev/bin/activate
+
+>>> pip install -r /path/to/requirements.txt
+
+>>> deactivate
+```
+
 Project Organization
 ------------
 
