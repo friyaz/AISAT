@@ -16,19 +16,20 @@ Setting up local development environment
 >>> git set remote origin https://github.com/friyaz/AISAT.git
 ```
 
-Activate the virtual environment
+3. Activate the virtual environment
 ```
 >>> pip install virtualenv
 >>> virtualenv aisat_dev
 >>> source aisat_dev/bin/activate
 ```
 
-Install the dependencies
+4. Install the dependencies
 ```
 >>> pip install -r /path/to/requirements.txt
 ```
-Deactivate the virtual environment
-To decativate the virtual environment and use your original Python environment, simply type `deactivate`.
+
+5. Deactivate the virtual environment
+To decativate the virtual environment and use your original environment, simply type `deactivate`.
 ```python
 >>> deactivate
 ```
