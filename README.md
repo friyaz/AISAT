@@ -1,7 +1,6 @@
-{{cookiecutter.project_name}}
+AISAT
 ==============================
 
-{{cookiecutter.description}}
 
 Project Organization
 ------------
@@ -27,7 +26,7 @@ Project Organization
     ├── requirements.txt                        <- The requirements file for reproducing the analysis environment, e.g.
     │                                              generated with `pip freeze > requirements.txt`
     │
-    ├── {{cookiecutter.project_name}}           <- Source code for use in this project.
+    ├── AISAT                                   <- Source code for use in this project.
     │   │
     │   ├── data                                <- Scripts to download or generate data
     │   │
